@@ -1,0 +1,6 @@
+{
+    "require": {
+        "psr/simple-cache": "^3.0",
+        "shuchkin/simplexlsxgen": "^1.4"
+    }
+}
