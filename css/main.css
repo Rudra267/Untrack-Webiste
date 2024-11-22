@@ -942,9 +942,9 @@ START: Theme Meanmenu CSS
 .tj-bottom-content-area {
   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 30px;
-  margin-top: 10px;
+
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 30px;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-bottom-content-area {
@@ -2105,6 +2105,7 @@ START: Theme Header CSS
   visibility: hidden;
 }
 .tj-header-area.header-1.sticky {
+  /* height: 100px !important; */
   position: fixed;
   opacity: 1;
   visibility: visible;
@@ -2144,10 +2145,12 @@ START: Theme Header CSS
 .tj-header-area.header-1.header-sticky {
   position: absolute;
   opacity: 0;
+  height: 100px !important;
   visibility: hidden;
 }
 .tj-header-area.header-1.sticky {
   position: fixed;
+  height: 100px !important;
   opacity: 1;
   visibility: visible;
 }
